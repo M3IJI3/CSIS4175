@@ -29,7 +29,6 @@ public class MainActivity extends AppCompatActivity {
     RecyclerView recyclerView;
     RecyclerView.LayoutManager layoutManager;
     public RecyclerView.Adapter adapter;
-
     private RequestQueue requestQueue;
     private ArrayList<Movie> movieList;
 

@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.popularmovie"
+    namespace = "com.example.afinal"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.popularmovie"
+        applicationId = "com.example.afinal"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
@@ -37,9 +37,4 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
-
-//    implementation("com.squareup.picasso:picasso:2.71828")
-    implementation("com.android.volley:volley:1.2.1")
-    implementation("com.squareup.picasso:picasso:2.71828")
-
 }

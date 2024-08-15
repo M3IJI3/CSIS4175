@@ -2,7 +2,7 @@ package com.example.recylerviewdemo;
 
 import android.os.Bundle;
 
-import androidx.activity.EdgeToEdge;
+import androidx.activity.*;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
